@@ -12,7 +12,7 @@ const User = ({user}) => {
             <h2>{user.name}</h2>
             <h4>{user.email}</h4>
              <h3>{user.phone}</h3>
-              <Link to={`users/${user.id}`}>User Details</Link>
+              <Link to={`/users/${user.id}`}>User Details</Link>
         </div>
     );
 };
